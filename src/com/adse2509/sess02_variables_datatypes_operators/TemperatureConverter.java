@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Java Program that accepts the temperature in Degrees Fahrenheit
  * and converts it to Degrees Celsius.
  *
- * @author Teka
+ * @author odhia
  */
 public class TemperatureConverter {
 
