@@ -1,4 +1,4 @@
-package com.adse2509.sess02_ArithmeticOperators;
+package com.adse2509.sess02_variables_datatypes_operators;
 
 import java.util.Scanner;
 
