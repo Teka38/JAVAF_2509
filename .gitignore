@@ -1,3 +1,17 @@
+# Build output
 /build/
 /dist/
+
+# Compiled Java files
 *.class
+
+# NetBeans private settings
+nbproject/private/
+
+# (Optional) Ignore the entire NetBeans project folder
+# Uncomment this only if you don't want any nbproject files on GitHub.
+# nbproject/
+
+# (Optional) Ignore these if you don't want them in GitHub
+# build.xml
+# manifest.mf
