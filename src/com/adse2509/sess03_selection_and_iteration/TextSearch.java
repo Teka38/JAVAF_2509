@@ -3,7 +3,7 @@ package sess03_selection_and_iteration;
 /**
  * Java program to search for some text in a paragraph using a while loop.
  *
- * @author a.nyanjui
+ * @author Teka
  */
 public class TextSearch
 {
