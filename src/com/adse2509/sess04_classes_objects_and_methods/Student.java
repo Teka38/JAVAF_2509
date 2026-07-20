@@ -1,7 +1,9 @@
 package sess04_classes_objects_and_methods;
 
 /**
- * Java class to model a student object.
+ * A class that models a student object.
+ * This class stores a student's ID, name, age, and gender, and provides
+ * methods to initialise and display the student's details.
  *
  * @author Teka
  */
@@ -13,7 +15,9 @@ public class Student
     int age;
     char gender;
 
-    // no argument constructor
+    /**
+     * Creates a student object with default values.
+     */
     public Student()
     {
         this.studentID = "";
@@ -22,7 +26,9 @@ public class Student
         this.gender = 'M';
     }
 
-    // Student initialiser
+    /**
+     * Initialises the student object with sample data.
+     */
     public void initialiseStudent()
     {
         this.studentID = "Student0001";
@@ -30,7 +36,9 @@ public class Student
         this.age = 18;
     }
 
-    // Method to display the student's details
+    /**
+     * Displays the student's details on the console.
+     */
     public void displayDetails()
     {
         System.out.println("Student Details");
@@ -43,6 +51,11 @@ public class Student
         System.out.println("-".repeat(50));
     }
 
+    /**
+     * Returns the student's details as a formatted string.
+     *
+     * @return a string containing the student's details.
+     */
     @Override
     public String toString()
     {
